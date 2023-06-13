@@ -61,14 +61,14 @@ class HooksGalleryApp extends HookWidget {
             title: 'TimelineUi',
             builder: (context) => const TimelineUi(),
           ),
-          _GalleryItem(
-            title: 'TimelineUi 2',
-            builder: (context) => const TimelineUi2(),
-          ),
-          _GalleryItem(
-            title: 'TimelineUi 3',
-            builder: (context) => const ShowcaseSuccessTimeline(),
-          ),
+          // _GalleryItem(
+          //   title: 'TimelineUi 2',
+          //   builder: (context) => const TimelineUi2(),
+          // ),
+          // _GalleryItem(
+          //   title: 'TimelineUi 3',
+          //   builder: (context) => const ShowcaseSuccessTimeline(),
+          // ),
           _GalleryItem(
             title: 'Edit Screen',
             builder: (context) => const EditScreenUi(),
