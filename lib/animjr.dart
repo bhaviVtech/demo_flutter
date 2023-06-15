@@ -14,6 +14,10 @@ class AnimJrDevState extends State<AnimJrDev> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Container();
+    return Scaffold(
+      body: SafeArea(
+        child: Container(),
+      ),
+    );
   }
 }
