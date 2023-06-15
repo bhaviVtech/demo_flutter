@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import '.env.example.dart';
+import 'animMain.dart';
 import 'billing_summary.dart';
 import 'biometricUi.dart';
 import 'calendar_ui.dart';
@@ -93,6 +94,10 @@ class HooksGalleryApp extends HookWidget {
           _GalleryItem(
             title: 'BioMetric',
             builder: (context) => const BioMetricUi(),
+          ),
+          _GalleryItem(
+            title: 'AnimMain',
+            builder: (context) => const AnimMain(),
           ),
         ]),
       ),
